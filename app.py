@@ -1,4 +1,4 @@
-import streamlit as st
+nimport streamlit as st
 import sklearn
 import pickle
 
@@ -14,7 +14,7 @@ c = float(st.number_input("BloodPressure"))
 d = float(st.number_input("Skin Thickness"))
 e = float(st.number_input("Insulin"))
 f = float(st.number_input("Body Mass Index"))
-g = float(st.number_input("Diabetes Pedigree Function"))
+g = float(st.number_input("Diabetes Prediction Function"))
 h = float(st.number_input("Age"))
 
 
